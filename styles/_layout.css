@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+.body-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header-container {
+    padding: 0 70px;
+}
+
+.navigation {
+    display: grid;
+    grid-template-columns: 140px 28px 2fr 1fr;
+}
+
+.navigation-logo-link {
+    grid-column: 1/2;
+}
+
+.navigation-list-links {
+    grid-column: 3/4;
+}
+
+.navigation-list-items {
+    grid-column: 4/5;
+}
