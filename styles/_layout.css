@@ -2,9 +2,14 @@
     box-sizing: border-box;
 }
 
+html {
+    background: #F2F2F2;
+}
+
 .body-container {
     width: 1200px;
     margin: 0 auto;
+    background: #ffffff;
 }
 
 /* header */
@@ -82,4 +87,30 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+
+/* catalog */
+.form-price {
+    display: grid;
+    grid-template-columns: 221px 221px 70px 358px 191px;
+  }
+  
+  .infostructure {
+    grid-column: 1/2;
+  }
+  
+  .type-of-housing {
+    grid-column: 2/3;
+  }
+  
+  .price-input {
+    grid-column: 4/5;
+  }
+  
+  .price-button {
+    grid-column: 5/6;
+  }
+
+.catalog-hotels {
+    padding: 50px 70px 60px 70px;
+  }
 

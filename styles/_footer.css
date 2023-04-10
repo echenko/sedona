@@ -1,0 +1,60 @@
+.footer-conteiner {
+    padding: 40px 70px 30px;
+    display: grid;
+    grid-template-columns: 183px 720px 157px;
+}
+
+.social-list {
+    grid-column: 1/2;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 5px 0;
+    list-style-type: none;
+}
+
+.social-list-item {
+    display: block;
+    width: 48px;
+    height: 40px;
+}
+
+.button-vk-link {
+    display: block;
+    background: url(/icons/social/vk.svg) no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.button-telegram-link {
+    display: block;
+    background: url(/icons/social/telegram.svg) no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.button-yt-link {
+    display: block;
+    background: url(/icons/social/youtube.svg) no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.address-phone {
+    display: block;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+}
+
+.htmlacademy-link {
+    background: url(/icons/html-academy.svg) 42px no-repeat;
+    text-align: right;
+}
