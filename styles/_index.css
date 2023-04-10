@@ -1,0 +1,101 @@
+.main-welcome {
+    background: url(/images/index-background.jpg) no-repeat center;
+    background-size: cover;
+    padding-top: 51px;
+    text-align: center;
+}
+
+.advantages-header {
+    padding: 69px 274px;
+    text-align: center;
+}
+
+.advantages-title {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+    margin: 0 0 25px;
+    color: #000000;
+}
+
+.advantages-text {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #333333;
+    margin: 0;
+}
+
+.advantages-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.real-city-container,
+.bridge-container {
+    padding: 102px 85px;
+    background: #82B3D3;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.advantages-small-area,
+.advantages-beautiful-road,
+.advantages-few-tourists {
+    min-height: 385px;
+    padding: 112px 85px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #333333;
+}
+
+.recommendations {
+    padding: 64px 348px;
+    text-align: center;
+}
+
+.recommendations-title {
+    margin-bottom: 20px;
+}
+
+.recommendations-text {
+    color: #333333;
+}
+
+.recommendations-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.housing,
+.food,
+.souvenirs {
+    min-height: 385px;
+    padding: 81px 85px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.housing {
+    background: url(/icons/recommendations/housing.svg) 163px 81px no-repeat;
+}
+
+.housing-title,
+.food-title,
+.souvenirs-title {
+    margin-bottom: 30px;
+}
