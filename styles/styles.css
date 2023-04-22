@@ -25,6 +25,8 @@ html {
 /* button-browns */
 .button-brown {
   background-color: #756157;
+  border-radius: 4px;
+  color: #ffffff;
 }
 
 .button-brown:hover {
@@ -60,11 +62,12 @@ html {
 /* navigation */
 .navigation-container {
   display: grid;
-  grid-template-columns: 140px 2fr 1fr;
+  grid-template-columns: 140px 3fr 1fr auto;
+  grid-template-rows: auto;
   gap: 28px;
 }
 
-.navigation-logo {
+.navigation-logo-link {
   display: block;
   margin-bottom: -20px;
 }
@@ -75,9 +78,6 @@ html {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  font-family: 'PT Sans';
-  font-weight: 700;
-  font-size: 20px;
 }
 
 .navigation-list-link {
@@ -89,31 +89,37 @@ html {
   display: block;
   padding: 20px 16px;
   text-transform: capitalize;
+  text-decoration: none;
+  font-family: "PT Sans";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
 }
 
-.navigation-list-icons {
+.navigation-list-items {
   justify-content: flex-end;
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-end;
+  align-content: flex-start;
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-.navigation-list-icons .navigation-list-link {
+.navigation-list-items .navigation-list-link {
   display: block;
-  margin: 24px 13px;
+  padding: 10px;
 }
 
-.navigation-list-item .button-brown {
+.navigation-button {
+  display: inline-block;
   padding: 8px 34px;
-  color: #ffffff;
-  border-radius: 4px;
+  
   font-family: 'PT Sans';
   font-weight: 700;
   font-size: 16px;
   text-transform: uppercase;
-  margin: 14px 0 14px 20px;
 }
 
 /* main */
