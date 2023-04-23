@@ -78,6 +78,7 @@ html {
   font-family: 'PT Sans';
   font-weight: 700;
   font-size: 20px;
+  line-height: 24px;
 }
 
 .navigation-list-link {
@@ -92,17 +93,23 @@ html {
 }
 
 .navigation-list-icons {
-  justify-content: flex-end;
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
+  justify-content: flex-end;
+  align-content: flex-start;
   padding: 0;
   margin: 0;
 }
 
 .navigation-list-icons .navigation-list-link {
   display: block;
-  margin: 24px 13px;
+  min-width: 44px;
+  height: 64px;
+}
+
+.navigation-list-icon {
+ padding: 10px 10px;
 }
 
 .navigation-list-item .button-brown {
@@ -113,12 +120,11 @@ html {
   font-weight: 700;
   font-size: 16px;
   text-transform: uppercase;
-  margin: 14px 0 14px 20px;
 }
 
 /* main */
-.main-container {
+/* .main-container {
 
 }
 .footer-container {
-}
+} */
